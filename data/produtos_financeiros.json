@@ -1,42 +1,32 @@
 [
   {
-    "nome": "Tesouro Selic",
-    "categoria": "renda_fixa",
-    "risco": "baixo",
-    "rentabilidade": "100% da Selic",
-    "aporte_minimo": 30.00,
-    "indicado_para": "Reserva de emergência e iniciantes"
+    "nome": "Consignado INSS",
+    "publico": "Aposentados e Pensionistas",
+    "taxa_juros_mensal": 1.66,
+    "prazo_maximo": 84,
+    "valor_minimo": 500,
+    "valor_maximo": 100000,
+    "margem_consignavel": "35%",
+    "indicacao": "Clientes que recebem benefício do INSS"
   },
   {
-    "nome": "CDB Liquidez Diária",
-    "categoria": "renda_fixa",
-    "risco": "baixo",
-    "rentabilidade": "102% do CDI",
-    "aporte_minimo": 100.00,
-    "indicado_para": "Quem busca segurança com rendimento diário"
+    "nome": "Consignado Servidor Público",
+    "publico": "Servidor Público",
+    "taxa_juros_mensal": 1.80,
+    "prazo_maximo": 96,
+    "valor_minimo": 1000,
+    "valor_maximo": 200000,
+    "margem_consignavel": "35%",
+    "indicacao": "Servidores municipais, estaduais e federais"
   },
   {
-    "nome": "LCI/LCA",
-    "categoria": "renda_fixa",
-    "risco": "baixo",
-    "rentabilidade": "95% do CDI",
-    "aporte_minimo": 1000.00,
-    "indicado_para": "Quem pode esperar 90 dias (isento de IR)"
-  },
-  {
-    "nome": "Fundo Multimercado",
-    "categoria": "fundo",
-    "risco": "medio",
-    "rentabilidade": "CDI + 2%",
-    "aporte_minimo": 500.00,
-    "indicado_para": "Perfil moderado que busca diversificação"
-  },
-  {
-    "nome": "Fundo de Ações",
-    "categoria": "fundo",
-    "risco": "alto",
-    "rentabilidade": "Variável",
-    "aporte_minimo": 100.00,
-    "indicado_para": "Perfil arrojado com foco no longo prazo"
+    "nome": "Consignado Privado",
+    "publico": "CLT Conveniado",
+    "taxa_juros_mensal": 2.20,
+    "prazo_maximo": 60,
+    "valor_minimo": 500,
+    "valor_maximo": 50000,
+    "margem_consignavel": "30%",
+    "indicacao": "Trabalhadores CLT conveniados"
   }
 ]
